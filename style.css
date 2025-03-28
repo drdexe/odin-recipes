@@ -1,0 +1,32 @@
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: antiquewhite;
+}
+
+.index-header {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.recipe-list li {
+  font-size: 1.5em;
+  margin: 15px;
+}
+
+.recipe-header {
+  text-align: center;
+}
+
+.recipe-header > h1 {
+  background-color: wheat;
+  font-size: 2em;
+}
+
+h2 + ul, h2 + ol {
+  color: #00000080;
+}
+
+.home {
+  font-size: 32px;
+  text-align: center;
+}
