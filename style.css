@@ -1,16 +1,27 @@
 body {
   font-family: "Trebuchet MS", sans-serif;
   background-color: antiquewhite;
+  margin: 0;
 }
 
 .index-header {
   font-size: 3em;
   font-weight: 900;
+  background-color: bisque;
+  margin: 0;
+  padding: 64px 32px;
+}
+
+.recipe-list {
+  background-color: #eadbc7;
+  list-style-type: none;
+  border-left: 10px solid orange;
+  padding: 32px;
 }
 
 .recipe-list li {
   font-size: 1.5em;
-  margin: 15px;
+  margin-bottom: 15px;
 }
 
 .recipe-header {
@@ -20,6 +31,15 @@ body {
 .recipe-header > h1 {
   background-color: wheat;
   font-size: 2em;
+  padding: 16px;
+}
+
+h2, p, ul, ol {
+  margin-left: 32px;
+}
+
+h2 {
+  margin-top: 3em;
 }
 
 h2 + ul, h2 + ol {
@@ -29,4 +49,5 @@ h2 + ul, h2 + ol {
 .home {
   font-size: 32px;
   text-align: center;
+  margin: 32px;
 }
